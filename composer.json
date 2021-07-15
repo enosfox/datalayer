@@ -1,0 +1,32 @@
+{
+  "name": "kitsunecode/datalayer",
+  "description": "The data layer is a persistent abstraction component of your database that PDO",
+  "keywords": [
+    "KitsuneCode",
+    "MasterKitsune",
+    "Database",
+    "PDO",
+    "Save",
+    "Delete",
+    "Destroy",
+    "CRUD"
+  ],
+  "homepage": "https://www.masterkitsune.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Enos S. S. Silva",
+      "email": "devenos@icloud.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "KitsuneCode\\DataLayer\\": "src"
+    }
+  }
+}
