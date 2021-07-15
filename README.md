@@ -42,7 +42,7 @@ Para mais detalhes sobre como usar o Data Layer, veja a pasta de exemplo com det
 
 ###### To begin using the Data Layer, you need to connect to the database (MariaDB / MySql). For more connections [PDO connections manual on PHP.net](https://www.php.net/manual/pt_BR/pdo.drivers.php)
 
-Para começar a usar o Data Layer precisamos de uma conexão com o seu banco de dados. Para ver as conexões possíveis acesse o [manual de conexões do PDO em PHP.net](https://www.php.net/manual/pt_BR/pdo.drivers.php)
+Para começar a usar o Data Layer precisamos de uma conexão com o seu banco de dados(MariaDB / Mysql). Para ver as conexões possíveis acesse o [manual de conexões do PDO em PHP.net](https://www.php.net/manual/pt_BR/pdo.drivers.php)
 
 ```php
 define("DATA_LAYER_CONFIG", [
